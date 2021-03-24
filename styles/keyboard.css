@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'B52'; 
+    src: url('../assets/b52.ttf');
+
+}
+
+@font-face {
+    font-family: 'Poplar-Kozel'; 
+    src: url('../assets/Poplar-Kozel.otf');
+
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    padding: 2px 0 0 7px;
+    font-family: Poplar-Kozel;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    outline: none;
+    border-radius: 2px 2px 2px 2px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px #999;
+
+}
+
+button:hover {
+    background-color: #323332
+
+}
+
+button:active {
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+    
+}
+
+.active{
+    background-color: #323332;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+      
+}
+
+#tab, #backspace{
+    width: 80px;
+
+}
+
+#enter, #capslock{
+    width: 80px;
+
+}
+
+#left-ctrl, #right-ctrl{
+    width: 60px;
+
+} 
+
+#left-shift{
+    width: 90px;
+    background-color: #303130;
+
+}
+
+#left-alt{
+    background-color: #303130;
+}
+
+#spacebar{
+    width: 230px;
+
+}
+
+.layoutInfo{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Poplar-Kozel;
+
+}
